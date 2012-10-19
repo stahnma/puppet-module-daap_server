@@ -1,0 +1,17 @@
+# Readme file for mt-daapd module
+
+daap_server - A DAAP server that exports your music collection via the Digital Audio Access Protocol as made famous by Apple iTunes.
+
+
+This puppet module should basically do just a few things.
+
+1.  Install mt-daapd
+2.  Deliver a configuration file in /etc/mt-daapd.conf
+3.  Enable the daemon for startup
+4.  Startup the daemon
+
+
+
+
+Also, you may need to open port 3689 (udp and tcp) in your firewall.  I haven't added that to this module yet.
+
